@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Siyal Com"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-02 12:41:39 PM"/>
+        <attribute name="created" value="U2l5YWwgQ29tO0RFU0tUT1AtT0pGSDUxVjsyMDIzLTA5LTAyOzEyOjM5OjU1IFBNOzMxODY="/>
+        <attribute name="edited" value="U2l5YWwgQ29tO0RFU0tUT1AtT0pGSDUxVjsyMDIzLTA5LTAyOzEyOjQxOjM5IFBNOzE7MzI4OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Speed "/>
+            <input variable="d"/>
+            <input variable="t"/>
+            <assign variable="speed" expression="d/t"/>
+            <output expression="speed" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

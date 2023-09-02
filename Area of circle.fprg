@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Siyal Com"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-02 12:36:54 PM"/>
+        <attribute name="created" value="U2l5YWwgQ29tO0RFU0tUT1AtT0pGSDUxVjsyMDIzLTA5LTAyOzEyOjMzOjEzIFBNOzMxNzQ="/>
+        <attribute name="edited" value="U2l5YWwgQ29tO0RFU0tUT1AtT0pGSDUxVjsyMDIzLTA5LTAyOzEyOjM2OjU0IFBNOzE7MzI5MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Area of circle"/>
+            <input variable="r"/>
+            <assign variable="square" expression="r*r"/>
+            <assign variable="Area" expression="r*r*pi"/>
+            <output expression="Area" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

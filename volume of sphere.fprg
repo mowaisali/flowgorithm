@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Siyal Com"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-02 12:39:50 PM"/>
+        <attribute name="created" value="U2l5YWwgQ29tO0RFU0tUT1AtT0pGSDUxVjsyMDIzLTA5LTAyOzEyOjM3OjM5IFBNOzMxODY="/>
+        <attribute name="edited" value="U2l5YWwgQ29tO0RFU0tUT1AtT0pGSDUxVjsyMDIzLTA5LTAyOzEyOjM5OjUwIFBNOzE7MzI4OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Volume of sphere&#13;&#10;"/>
+            <input variable="r"/>
+            <assign variable="cube" expression="r*r*r"/>
+            <assign variable="Volume" expression="r^3*pi"/>
+            <output expression="volume" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
