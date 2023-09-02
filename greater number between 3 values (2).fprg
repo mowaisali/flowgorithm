@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Siyal Com"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-02 01:08:37 PM"/>
+        <attribute name="created" value="U2l5YWwgQ29tO0RFU0tUT1AtT0pGSDUxVjsyMDIzLTA5LTAxOzA2OjM2OjQ0IFBNOzMxODM="/>
+        <attribute name="edited" value="U2l5YWwgQ29tO0RFU0tUT1AtT0pGSDUxVjsyMDIzLTA5LTAyOzAxOjA4OjM3IFBNOzI7MzI4OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="what is greater number between 3 values&#13;&#10;"/>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <input variable="b"/>
+            <declare name="c" type="Integer" array="False" size=""/>
+            <input variable="c"/>
+            <if expression="a&gt;b">
+                <then>
+                    <if expression="a&gt;c">
+                        <then>
+                            <output expression="a" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="c" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <if expression="b&gt;c">
+                        <then>
+                            <output expression="b" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="c" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

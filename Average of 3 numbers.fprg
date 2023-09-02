@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Siyal Com"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-02 01:51:07 PM"/>
+        <attribute name="created" value="U2l5YWwgQ29tO0RFU0tUT1AtT0pGSDUxVjsyMDIzLTA5LTAyOzEyOjI3OjMyIFBNOzMxNzg="/>
+        <attribute name="edited" value="U2l5YWwgQ29tO0RFU0tUT1AtT0pGSDUxVjsyMDIzLTA5LTAyOzAxOjUxOjA3IFBNOzM7MzI4NQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Average of three numbers"/>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <input variable="b"/>
+            <declare name="c" type="Integer" array="False" size=""/>
+            <input variable="c"/>
+            <declare name="sum" type="Integer" array="False" size=""/>
+            <assign variable="sum" expression="a+b+c"/>
+            <declare name="average" type="Integer" array="False" size=""/>
+            <assign variable="average" expression="(a+b+c)/3"/>
+            <output expression="average" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

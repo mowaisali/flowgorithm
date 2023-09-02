@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Siyal Com"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-02 12:48:36 PM"/>
+        <attribute name="created" value="U2l5YWwgQ29tO0RFU0tUT1AtT0pGSDUxVjsyMDIzLTA5LTAyOzEyOjQxOjQxIFBNOzMxNzQ="/>
+        <attribute name="edited" value="U2l5YWwgQ29tO0RFU0tUT1AtT0pGSDUxVjsyMDIzLTA5LTAyOzEyOjQ4OjM2IFBNOzE7MzI5Mw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <input variable="x"/>
+            <declare name="y" type="Integer" array="False" size=""/>
+            <input variable="y"/>
+            <declare name="sum" type="Integer" array="False" size=""/>
+            <assign variable="sum" expression="x+y"/>
+            <declare name="average" type="Integer" array="False" size=""/>
+            <assign variable="average" expression="sum/2"/>
+            <output expression="average" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
